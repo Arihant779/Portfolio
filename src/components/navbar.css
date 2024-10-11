@@ -1,0 +1,151 @@
+.navbar {
+  background-color: #4a5568; 
+  border-bottom: 1px solid #cbd5e0; 
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+  padding: 1rem;
+  /* height:100px; */
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.menu-toggle {
+  display: block;
+  color: white;
+  cursor: pointer;
+}
+
+.links {
+  display: none;
+}
+
+.links.active {
+  display: flex; 
+  flex-direction: column;
+  position: absolute;
+  right: 1rem;
+  top: 60px; 
+  background-color: #4a5568; 
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.link:hover {
+  background-color: #4299e1; 
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.custom-navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-menu.active {
+    flex-direction: column;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1.1rem;
+}
+
+.navbar-link:hover {
+    color: #ffdd57;
+}
+
+.navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar-toggle span {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: none;
+    }
+    .navbar-menu {
+        flex-direction: row;
+    }
+}
+
+
+.section {
+    height: 100vh;
+    padding-top: 80px; 
+    text-align: center;
+    font-size: 2rem;
+    background-color: #0f0f0f;
+}
+.section1 {
+    height: 20vh;
+    padding-top: 80px; 
+    text-align: center;
+    font-size: 2rem;
+    background-color: #0f0f0f;
+}
+
+
