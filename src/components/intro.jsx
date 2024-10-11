@@ -34,10 +34,10 @@ const Intro = () => {
                 <p>CSE 2nd Year</p>
                 <div className="social-links">
                 
-                    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/arihant-jain-a946962a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
                         <i className="fa-brands fa-linkedin aa"></i>
                     </a>
-                    <a href="https://github.com/your-github" target="_blank" rel="noreferrer" className="link1">
+                    <a href="https://github.com/Arihant779" target="_blank" rel="noreferrer" className="link1">
                         <i className="fa-brands fa-github aa"></i>
                     </a>
                 </div>

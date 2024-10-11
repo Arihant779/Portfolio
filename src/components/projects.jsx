@@ -5,19 +5,19 @@ const projectsData = [
   {
     title: "Cataract Detection App",
     description: "An app to detect whether a person has cataract or not in real-time.",
-    githubLink: "https://github.com/your-profile/siddhi-health",
+    githubLink: "https://github.com/Arihant779/Cataract_Detection_Siddhi",
     imageSrc: "cataracts eye closeup teaser.jpg" 
   },
   {
     title: "Document Summarizer",
     description: "A website that summarizes all kinds of documents.",
-    githubLink: "https://github.com/your-profile/culinary-compass",
+    githubLink: "https://github.com/Arihant779/Document-Summarizer",
     imageSrc: "65cc4c835481f8e0f1ca3a3d_Video Summarizer (1).webp"
   },
   {
     title: "Chat Application",
     description: "A real-time chat application with chat encryption.",
-    githubLink: "https://github.com/your-profile/amazon-clone",
+    githubLink: "https://github.com/Arihant779/Bazinga-Chat",
     imageSrc: "original-6a382173568c9f3ac78d74cca5ee255d.png"
   }
 ];
