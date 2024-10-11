@@ -48,7 +48,7 @@ const Navbar = () => {
       {/* Section Content */}
       <section id="home" className="section"><Intro/></section>
       <section id="about" className="section"><About/></section>
-      <section id="services" className="section"><Skills/></section>
+      <section id="skills" className="section"><Skills/></section>
       <section id="projects" className="section"><Projects/></section>
       <section id="contact" className="section1"><Contacts/></section>
     </>
